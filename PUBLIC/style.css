@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 4000ms;
+}
+
+body {
+  background-color: rgb(22, 22, 22) !important;
+}
+.btn{
+  color: #c6ab81;
+}
+.btn:hover{
+  color: #c6ab81;
+}
+
+p {
+  font-size: 18px !important;
+}
+
+.mynavigation {
+  width: 100%;
+  margin-left: 0px !important;
+  padding: 10px 0px;
+}
+
+.mynavigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.mynavigation ul li {
+  padding-right: 25px;
+}
+
+.mynavigation ul li a {
+  text-decoration: none;
+  color: #c9ab81;
+}
+
+.mynavigation button {
+  background-color: #c9ab81;
+  margin: 0px 30px 0px 15px;
+}
+
+.mynav-slider {
+  height: 100%;
+}
+
+.mynav-slider span {
+  width: 100%;
+  margin-top: 70px;
+  display: block;
+  text-align: left;
+  font-family: "Miniver", cursive;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.mynav-slider h1 {
+  width: 100%;
+  text-align: left;
+  font-size: 80px;
+}
+
+.myslider-btns {
+  display: flex;
+  width: 100%;
+}
+
+.mynav-slider button {
+  padding: 10px 20px;
+  background-color: #c9ab81;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.top-cards {
+  margin-top: -100px;
+  position: relative;
+}
+
+.mysb-cards {
+  display: flex;
+}
+
+.mysb-cards>div {
+  padding: 10px;
+}
+
+.mysb-cards>div h3 {
+  color: white;
+}
+
+.mysb-cards>div p {
+  color: rgb(99, 99, 99);
+}
+
+.card-data {
+  background-color: rgb(14, 20, 21);
+  display: flex;
+  height: 200px;
+  align-items: center;
+  width: 100%;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-txt {
+  width: 200%;
+}
+
+.about {
+  background-color: rgb(22, 22, 22);
+  padding: 300px 0px 0px 0px;
+  margin-top: -130px;
+}
+
+.section-1 {
+  text-align: center;
+}
+
+.about-1 {
+  padding-bottom: 50px;
+}
+
+.about-img {
+  margin: 40px 0px;
+}
+
+.about-2 {
+  padding-top: 50px;
+}
+
+.about-txt {
+  padding-top: 50px;
+  text-align: left;
+}
+
+.about span {
+  font-family: "Miniver", cursive;
+  color: #c9ab81;
+}
+
+.about h1 {
+  margin: 30px 0px;
+  color: white;
+  font-size: 60px;
+}
+
+.about p {
+  color: rgb(49, 49, 49);
+}
+
+.about button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #c9ab81;
+}
+
+.feature {
+  text-align: center;
+  background-color: black;
+  padding: 30px 0px 20px 0px;
+}
+
+.feature span {
+  font-family: "Miniver", cursive;
+  color: #c9ab81;
+}
+
+.feature h1 {
+  margin: 30px 0px;
+  color: white;
+  font-size: 60px;
+}
+
+.feature p {
+  color: rgb(49, 49, 49);
+}
+
+.feature button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #c9ab81;
+}
+
+.menu {
+  padding: 40px;
+}
+
+.menu>span {
+  padding: 35px 0px 0px 10px;
+  font-family:  "Miniver", cursive;
+  color: #c9ab81;
+}
+
+.menu>h1 {
+  padding: 0px 0px 35px 10px;
+  font-size: 55px;
+  color: white;
+}
+
+.menu-head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px dashed rgb(55, 55, 55);
+  padding-bottom: 20px;
+}
+
+.menu_image {
+  width: 20%;   
+}
+
+.menu_image img {
+  width: 100%;
+}
+
+.menu-head h2 {
+  padding-left: 20px;
+  color: white;
+  width: 80%;
+}
+
+.menu-number {
+  position: absolute;
+  right: 0;
+  color: #c9ab81;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgb(55, 55, 55);
+}
+
+.mb-card {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(55, 55, 55);
+}
+
+.mb-card h5 {
+  font-family: "Caviar-Dreams";
+  color: white;
+}
+
+.mb-card p {
+  color: white;
+  font-size: 15px !important;
+}
+
+.mb-card .menu-rate {
+  position: absolute;
+  color: #c9ab81;
+  top: 0;
+  margin-top: 30px;
+  right: 0;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro-btn {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  margin: 50px 0px;
+}
+
+.location {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.location-img {
+  background-color: rgb(55, 55, 55);
+  margin: 20px 150px;
+  padding: 20px 0px;
+  border-radius: 50%;
+}
+
+.location-img img {
+  width: 60%;
+}
+
+.location-txt h1 {
+  color: white;
+}
+
+.contact-time {
+  background-color: #c9ab81;
+  padding: 35px 20px 50px 20px;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  color: white;
+  font-size: 16px;
+}
+
+.contact-time h1{
+  padding: 10px 0px;
+}
+
+.appointment {
+  padding: 60px 60px;
+}
+
+.appointment-row {
+  background-color: rgb(14, 20, 21);
+}
+
+.appoint-txt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.appoint-txt>span {
+  font-family: "Miniver", cursive;
+  color: #c9ab81;
+}
+
+.appoint-txt h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.appoint-txt h1>span {
+  color: #c9ab81;
+}
+
+footer {
+  background-color: rgb(9, 9, 9);
+}
+
+.ft-img {
+  border-bottom: 2px solid rgb(22, 22, 22);
+  padding-bottom: 40px;
+}
+
+.ft-center {
+  padding-top: 50px;
+}
+
+.foot-l p {
+  color: #7b888b;
+}
+
+.foot-l h1 {
+  color: white;
+  margin: 10px 0px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.fa-facebook-f {
+  margin: 3px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(52, 52, 237);
+  padding: 15px 20px;
+}
+
+.fa-twitter {
+  margin: 3px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(57, 164, 202);
+  padding: 15px 20px;
+}
+
+.fa-youtube {
+  margin: 3px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(191, 15, 15);
+  padding: 15px 20px;
+}
+
+.foot-l ul {
+  list-style: none;
+  font-family: "Caviar-Dreams";
+  text-align: left;
+}
+
+.foot-l ul li {
+  margin-bottom: 27px;
+}
+
+.foot-l ul li a {
+  text-decoration: none;
+  color: #7b888b;
+}
+
+.foot-r h1 {
+  font-size: 30px;
+  font-family: "Caviar-Dreams";
+  color: white;
+}
+
+.foot-r p {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.foot-r span {
+  font-family:  "Miniver", cursive;
+  color: #c9ab81;
+}
+
+.foot-b {
+  padding: 30px 0px;
+  background-color: black;
+}
+
+.foot-b p {
+  color: #7b888b;
+}
+
+.foot-b p span {
+  color: #c9ab81;
+}
+
+.topbtn {
+  width: 100%;
+}
+
+.topbtn i {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 20px 25px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #c9ab81;
+  color: white;
+}
